@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4DF1D819702CF30080A1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DF1D719702CF30080A1D9 /* Foundation.framework */; };
+		CF4DF1DA19702CF30080A1D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DF1D919702CF30080A1D9 /* CoreGraphics.framework */; };
+		CF4DF1DC19702CF30080A1D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DF1DB19702CF30080A1D9 /* UIKit.framework */; };
+		CF4DF1E219702CF30080A1D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF1E019702CF30080A1D9 /* InfoPlist.strings */; };
+		CF4DF1E419702CF30080A1D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF1E319702CF30080A1D9 /* main.m */; };
+		CF4DF1E819702CF30080A1D9 /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF1E719702CF30080A1D9 /* KTAppDelegate.m */; };
+		CF4DF1EA19702CF40080A1D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF1E919702CF40080A1D9 /* Images.xcassets */; };
+		CF4DF1F119702CF40080A1D9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DF1F019702CF40080A1D9 /* XCTest.framework */; };
+		CF4DF1F219702CF40080A1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DF1D719702CF30080A1D9 /* Foundation.framework */; };
+		CF4DF1F319702CF40080A1D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4DF1DB19702CF30080A1D9 /* UIKit.framework */; };
+		CF4DF1FB19702CF40080A1D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF1F919702CF40080A1D9 /* InfoPlist.strings */; };
+		CF4DF1FD19702CF40080A1D9 /* KTUVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF1FC19702CF40080A1D9 /* KTUVDemoTests.m */; };
+		CF4DF20E19702F990080A1D9 /* KTUVDemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF20719702F990080A1D9 /* KTUVDemoCell.m */; };
+		CF4DF20F19702F990080A1D9 /* KTUVDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF20919702F990080A1D9 /* KTUVDemoController.m */; };
+		CF4DF21019702F990080A1D9 /* KTUVDemoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF20B19702F990080A1D9 /* KTUVDemoLayout.m */; };
+		CF4DF21119702F990080A1D9 /* KTUVDemoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF20D19702F990080A1D9 /* KTUVDemoUtils.m */; };
+		CF4DF22519702FA10080A1D9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF21419702FA10080A1D9 /* .gitignore */; };
+		CF4DF22619702FA10080A1D9 /* KTEdgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF21719702FA10080A1D9 /* KTEdgeLabel.m */; };
+		CF4DF22719702FA10080A1D9 /* KTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF21919702FA10080A1D9 /* KTUtil.m */; };
+		CF4DF22819702FA10080A1D9 /* NSData+KTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF21B19702FA10080A1D9 /* NSData+KTExtras.m */; };
+		CF4DF22919702FA10080A1D9 /* NSString+KTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF21D19702FA10080A1D9 /* NSString+KTExtras.m */; };
+		CF4DF22A19702FA10080A1D9 /* UIColor+KTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF21F19702FA10080A1D9 /* UIColor+KTExtras.m */; };
+		CF4DF22B19702FA10080A1D9 /* UIView+KTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF22119702FA10080A1D9 /* UIView+KTExtras.m */; };
+		CF4DF22C19702FA10080A1D9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF22219702FA10080A1D9 /* README.md */; };
+		CF4DF22D19702FA10080A1D9 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4DF22419702FA10080A1D9 /* UIImage+ImageEffects.m */; };
+		CF4DF2371970344A0080A1D9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF22F1970344A0080A1D9 /* 1.jpg */; };
+		CF4DF2381970344A0080A1D9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF2301970344A0080A1D9 /* 2.jpg */; };
+		CF4DF2391970344A0080A1D9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF2311970344A0080A1D9 /* 3.jpg */; };
+		CF4DF23A1970344A0080A1D9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF2321970344A0080A1D9 /* 4.jpg */; };
+		CF4DF23B1970344A0080A1D9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF2331970344A0080A1D9 /* 5.jpg */; };
+		CF4DF23C1970344A0080A1D9 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF2341970344A0080A1D9 /* 6.jpg */; };
+		CF4DF23D1970344A0080A1D9 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF2351970344A0080A1D9 /* 7.jpg */; };
+		CF4DF23E1970344A0080A1D9 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4DF2361970344A0080A1D9 /* 8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF4DF1F419702CF40080A1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4DF1CC19702CF30080A1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4DF1D319702CF30080A1D9;
+			remoteInfo = KTUVDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF4DF1D419702CF30080A1D9 /* KTUVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTUVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4DF1D719702CF30080A1D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF4DF1D919702CF30080A1D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF4DF1DB19702CF30080A1D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF4DF1DF19702CF30080A1D9 /* KTUVDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KTUVDemo-Info.plist"; sourceTree = "<group>"; };
+		CF4DF1E119702CF30080A1D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF4DF1E319702CF30080A1D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4DF1E519702CF30080A1D9 /* KTUVDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTUVDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CF4DF1E619702CF30080A1D9 /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
+		CF4DF1E719702CF30080A1D9 /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
+		CF4DF1E919702CF40080A1D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF4DF1EF19702CF40080A1D9 /* KTUVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTUVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4DF1F019702CF40080A1D9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF4DF1F819702CF40080A1D9 /* KTUVDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KTUVDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CF4DF1FA19702CF40080A1D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF4DF1FC19702CF40080A1D9 /* KTUVDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTUVDemoTests.m; sourceTree = "<group>"; };
+		CF4DF20619702F990080A1D9 /* KTUVDemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUVDemoCell.h; sourceTree = "<group>"; };
+		CF4DF20719702F990080A1D9 /* KTUVDemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUVDemoCell.m; sourceTree = "<group>"; };
+		CF4DF20819702F990080A1D9 /* KTUVDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUVDemoController.h; sourceTree = "<group>"; };
+		CF4DF20919702F990080A1D9 /* KTUVDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUVDemoController.m; sourceTree = "<group>"; };
+		CF4DF20A19702F990080A1D9 /* KTUVDemoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUVDemoLayout.h; sourceTree = "<group>"; };
+		CF4DF20B19702F990080A1D9 /* KTUVDemoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUVDemoLayout.m; sourceTree = "<group>"; };
+		CF4DF20C19702F990080A1D9 /* KTUVDemoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUVDemoUtils.h; sourceTree = "<group>"; };
+		CF4DF20D19702F990080A1D9 /* KTUVDemoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUVDemoUtils.m; sourceTree = "<group>"; };
+		CF4DF21419702FA10080A1D9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CF4DF21619702FA10080A1D9 /* KTEdgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTEdgeLabel.h; sourceTree = "<group>"; };
+		CF4DF21719702FA10080A1D9 /* KTEdgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTEdgeLabel.m; sourceTree = "<group>"; };
+		CF4DF21819702FA10080A1D9 /* KTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTUtil.h; sourceTree = "<group>"; };
+		CF4DF21919702FA10080A1D9 /* KTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTUtil.m; sourceTree = "<group>"; };
+		CF4DF21A19702FA10080A1D9 /* NSData+KTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+KTExtras.h"; sourceTree = "<group>"; };
+		CF4DF21B19702FA10080A1D9 /* NSData+KTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+KTExtras.m"; sourceTree = "<group>"; };
+		CF4DF21C19702FA10080A1D9 /* NSString+KTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KTExtras.h"; sourceTree = "<group>"; };
+		CF4DF21D19702FA10080A1D9 /* NSString+KTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KTExtras.m"; sourceTree = "<group>"; };
+		CF4DF21E19702FA10080A1D9 /* UIColor+KTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KTExtras.h"; sourceTree = "<group>"; };
+		CF4DF21F19702FA10080A1D9 /* UIColor+KTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KTExtras.m"; sourceTree = "<group>"; };
+		CF4DF22019702FA10080A1D9 /* UIView+KTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KTExtras.h"; sourceTree = "<group>"; };
+		CF4DF22119702FA10080A1D9 /* UIView+KTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KTExtras.m"; sourceTree = "<group>"; };
+		CF4DF22219702FA10080A1D9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CF4DF22319702FA10080A1D9 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		CF4DF22419702FA10080A1D9 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		CF4DF22F1970344A0080A1D9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CF4DF2301970344A0080A1D9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CF4DF2311970344A0080A1D9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CF4DF2321970344A0080A1D9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CF4DF2331970344A0080A1D9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		CF4DF2341970344A0080A1D9 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		CF4DF2351970344A0080A1D9 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		CF4DF2361970344A0080A1D9 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4DF1D119702CF30080A1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4DF1DA19702CF30080A1D9 /* CoreGraphics.framework in Frameworks */,
+				CF4DF1DC19702CF30080A1D9 /* UIKit.framework in Frameworks */,
+				CF4DF1D819702CF30080A1D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4DF1EC19702CF40080A1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4DF1F119702CF40080A1D9 /* XCTest.framework in Frameworks */,
+				CF4DF1F319702CF40080A1D9 /* UIKit.framework in Frameworks */,
+				CF4DF1F219702CF40080A1D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4DF1CB19702CF30080A1D9 = {
+			isa = PBXGroup;
+			children = (
+				CF4DF21219702FA10080A1D9 /* Vendor */,
+				CF4DF1DD19702CF30080A1D9 /* KTUVDemo */,
+				CF4DF1F619702CF40080A1D9 /* KTUVDemoTests */,
+				CF4DF1D619702CF30080A1D9 /* Frameworks */,
+				CF4DF1D519702CF30080A1D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4DF1D519702CF30080A1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF1D419702CF30080A1D9 /* KTUVDemo.app */,
+				CF4DF1EF19702CF40080A1D9 /* KTUVDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4DF1D619702CF30080A1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF1D719702CF30080A1D9 /* Foundation.framework */,
+				CF4DF1D919702CF30080A1D9 /* CoreGraphics.framework */,
+				CF4DF1DB19702CF30080A1D9 /* UIKit.framework */,
+				CF4DF1F019702CF40080A1D9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF4DF1DD19702CF30080A1D9 /* KTUVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF22E1970344A0080A1D9 /* photos */,
+				CF4DF20619702F990080A1D9 /* KTUVDemoCell.h */,
+				CF4DF20719702F990080A1D9 /* KTUVDemoCell.m */,
+				CF4DF20819702F990080A1D9 /* KTUVDemoController.h */,
+				CF4DF20919702F990080A1D9 /* KTUVDemoController.m */,
+				CF4DF20A19702F990080A1D9 /* KTUVDemoLayout.h */,
+				CF4DF20B19702F990080A1D9 /* KTUVDemoLayout.m */,
+				CF4DF20C19702F990080A1D9 /* KTUVDemoUtils.h */,
+				CF4DF20D19702F990080A1D9 /* KTUVDemoUtils.m */,
+				CF4DF1E619702CF30080A1D9 /* KTAppDelegate.h */,
+				CF4DF1E719702CF30080A1D9 /* KTAppDelegate.m */,
+				CF4DF1E919702CF40080A1D9 /* Images.xcassets */,
+				CF4DF1DE19702CF30080A1D9 /* Supporting Files */,
+			);
+			path = KTUVDemo;
+			sourceTree = "<group>";
+		};
+		CF4DF1DE19702CF30080A1D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF1DF19702CF30080A1D9 /* KTUVDemo-Info.plist */,
+				CF4DF1E019702CF30080A1D9 /* InfoPlist.strings */,
+				CF4DF1E319702CF30080A1D9 /* main.m */,
+				CF4DF1E519702CF30080A1D9 /* KTUVDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF4DF1F619702CF40080A1D9 /* KTUVDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF1FC19702CF40080A1D9 /* KTUVDemoTests.m */,
+				CF4DF1F719702CF40080A1D9 /* Supporting Files */,
+			);
+			path = KTUVDemoTests;
+			sourceTree = "<group>";
+		};
+		CF4DF1F719702CF40080A1D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF1F819702CF40080A1D9 /* KTUVDemoTests-Info.plist */,
+				CF4DF1F919702CF40080A1D9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF4DF21219702FA10080A1D9 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF21319702FA10080A1D9 /* KTCategories */,
+				CF4DF22319702FA10080A1D9 /* UIImage+ImageEffects.h */,
+				CF4DF22419702FA10080A1D9 /* UIImage+ImageEffects.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		CF4DF21319702FA10080A1D9 /* KTCategories */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF21419702FA10080A1D9 /* .gitignore */,
+				CF4DF21519702FA10080A1D9 /* KTCategories */,
+				CF4DF22219702FA10080A1D9 /* README.md */,
+			);
+			path = KTCategories;
+			sourceTree = "<group>";
+		};
+		CF4DF21519702FA10080A1D9 /* KTCategories */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF21619702FA10080A1D9 /* KTEdgeLabel.h */,
+				CF4DF21719702FA10080A1D9 /* KTEdgeLabel.m */,
+				CF4DF21819702FA10080A1D9 /* KTUtil.h */,
+				CF4DF21919702FA10080A1D9 /* KTUtil.m */,
+				CF4DF21A19702FA10080A1D9 /* NSData+KTExtras.h */,
+				CF4DF21B19702FA10080A1D9 /* NSData+KTExtras.m */,
+				CF4DF21C19702FA10080A1D9 /* NSString+KTExtras.h */,
+				CF4DF21D19702FA10080A1D9 /* NSString+KTExtras.m */,
+				CF4DF21E19702FA10080A1D9 /* UIColor+KTExtras.h */,
+				CF4DF21F19702FA10080A1D9 /* UIColor+KTExtras.m */,
+				CF4DF22019702FA10080A1D9 /* UIView+KTExtras.h */,
+				CF4DF22119702FA10080A1D9 /* UIView+KTExtras.m */,
+			);
+			path = KTCategories;
+			sourceTree = "<group>";
+		};
+		CF4DF22E1970344A0080A1D9 /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				CF4DF22F1970344A0080A1D9 /* 1.jpg */,
+				CF4DF2301970344A0080A1D9 /* 2.jpg */,
+				CF4DF2311970344A0080A1D9 /* 3.jpg */,
+				CF4DF2321970344A0080A1D9 /* 4.jpg */,
+				CF4DF2331970344A0080A1D9 /* 5.jpg */,
+				CF4DF2341970344A0080A1D9 /* 6.jpg */,
+				CF4DF2351970344A0080A1D9 /* 7.jpg */,
+				CF4DF2361970344A0080A1D9 /* 8.jpg */,
+			);
+			path = photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4DF1D319702CF30080A1D9 /* KTUVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4DF20019702CF40080A1D9 /* Build configuration list for PBXNativeTarget "KTUVDemo" */;
+			buildPhases = (
+				CF4DF1D019702CF30080A1D9 /* Sources */,
+				CF4DF1D119702CF30080A1D9 /* Frameworks */,
+				CF4DF1D219702CF30080A1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTUVDemo;
+			productName = KTUVDemo;
+			productReference = CF4DF1D419702CF30080A1D9 /* KTUVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF4DF1EE19702CF40080A1D9 /* KTUVDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4DF20319702CF40080A1D9 /* Build configuration list for PBXNativeTarget "KTUVDemoTests" */;
+			buildPhases = (
+				CF4DF1EB19702CF40080A1D9 /* Sources */,
+				CF4DF1EC19702CF40080A1D9 /* Frameworks */,
+				CF4DF1ED19702CF40080A1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF4DF1F519702CF40080A1D9 /* PBXTargetDependency */,
+			);
+			name = KTUVDemoTests;
+			productName = KTUVDemoTests;
+			productReference = CF4DF1EF19702CF40080A1D9 /* KTUVDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4DF1CC19702CF30080A1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = keighl;
+				TargetAttributes = {
+					CF4DF1EE19702CF40080A1D9 = {
+						TestTargetID = CF4DF1D319702CF30080A1D9;
+					};
+				};
+			};
+			buildConfigurationList = CF4DF1CF19702CF30080A1D9 /* Build configuration list for PBXProject "KTUVDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF4DF1CB19702CF30080A1D9;
+			productRefGroup = CF4DF1D519702CF30080A1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4DF1D319702CF30080A1D9 /* KTUVDemo */,
+				CF4DF1EE19702CF40080A1D9 /* KTUVDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4DF1D219702CF30080A1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4DF23E1970344A0080A1D9 /* 8.jpg in Resources */,
+				CF4DF23D1970344A0080A1D9 /* 7.jpg in Resources */,
+				CF4DF23A1970344A0080A1D9 /* 4.jpg in Resources */,
+				CF4DF2381970344A0080A1D9 /* 2.jpg in Resources */,
+				CF4DF1E219702CF30080A1D9 /* InfoPlist.strings in Resources */,
+				CF4DF23B1970344A0080A1D9 /* 5.jpg in Resources */,
+				CF4DF23C1970344A0080A1D9 /* 6.jpg in Resources */,
+				CF4DF22519702FA10080A1D9 /* .gitignore in Resources */,
+				CF4DF22C19702FA10080A1D9 /* README.md in Resources */,
+				CF4DF1EA19702CF40080A1D9 /* Images.xcassets in Resources */,
+				CF4DF2391970344A0080A1D9 /* 3.jpg in Resources */,
+				CF4DF2371970344A0080A1D9 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4DF1ED19702CF40080A1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4DF1FB19702CF40080A1D9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4DF1D019702CF30080A1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4DF22719702FA10080A1D9 /* KTUtil.m in Sources */,
+				CF4DF22D19702FA10080A1D9 /* UIImage+ImageEffects.m in Sources */,
+				CF4DF20E19702F990080A1D9 /* KTUVDemoCell.m in Sources */,
+				CF4DF22B19702FA10080A1D9 /* UIView+KTExtras.m in Sources */,
+				CF4DF1E419702CF30080A1D9 /* main.m in Sources */,
+				CF4DF21119702F990080A1D9 /* KTUVDemoUtils.m in Sources */,
+				CF4DF22819702FA10080A1D9 /* NSData+KTExtras.m in Sources */,
+				CF4DF22A19702FA10080A1D9 /* UIColor+KTExtras.m in Sources */,
+				CF4DF20F19702F990080A1D9 /* KTUVDemoController.m in Sources */,
+				CF4DF1E819702CF30080A1D9 /* KTAppDelegate.m in Sources */,
+				CF4DF21019702F990080A1D9 /* KTUVDemoLayout.m in Sources */,
+				CF4DF22619702FA10080A1D9 /* KTEdgeLabel.m in Sources */,
+				CF4DF22919702FA10080A1D9 /* NSString+KTExtras.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4DF1EB19702CF40080A1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4DF1FD19702CF40080A1D9 /* KTUVDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF4DF1F519702CF40080A1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4DF1D319702CF30080A1D9 /* KTUVDemo */;
+			targetProxy = CF4DF1F419702CF40080A1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF4DF1E019702CF30080A1D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4DF1E119702CF30080A1D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF4DF1F919702CF40080A1D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4DF1FA19702CF40080A1D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4DF1FE19702CF40080A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF4DF1FF19702CF40080A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4DF20119702CF40080A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTUVDemo/KTUVDemo-Prefix.pch";
+				INFOPLIST_FILE = "KTUVDemo/KTUVDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF4DF20219702CF40080A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTUVDemo/KTUVDemo-Prefix.pch";
+				INFOPLIST_FILE = "KTUVDemo/KTUVDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF4DF20419702CF40080A1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KTUVDemo.app/KTUVDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTUVDemo/KTUVDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KTUVDemoTests/KTUVDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF4DF20519702CF40080A1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KTUVDemo.app/KTUVDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KTUVDemo/KTUVDemo-Prefix.pch";
+				INFOPLIST_FILE = "KTUVDemoTests/KTUVDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4DF1CF19702CF30080A1D9 /* Build configuration list for PBXProject "KTUVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4DF1FE19702CF40080A1D9 /* Debug */,
+				CF4DF1FF19702CF40080A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4DF20019702CF40080A1D9 /* Build configuration list for PBXNativeTarget "KTUVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4DF20119702CF40080A1D9 /* Debug */,
+				CF4DF20219702CF40080A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF4DF20319702CF40080A1D9 /* Build configuration list for PBXNativeTarget "KTUVDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4DF20419702CF40080A1D9 /* Debug */,
+				CF4DF20519702CF40080A1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4DF1CC19702CF30080A1D9 /* Project object */;
+}
