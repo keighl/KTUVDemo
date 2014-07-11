@@ -1,0 +1,3 @@
+[submodule "Vendor/KTCategories"]
+	path = Vendor/KTCategories
+	url = git@github.com:keighl/KTCategories.git
