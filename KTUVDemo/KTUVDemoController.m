@@ -182,7 +182,7 @@
   }
   else
   {
-    // User scrolled downwards
+    // User scrolled upwards
     // Evaluate to the nearest index
     // Err towards closer a index by forcing a slightly closer target offset
     nextIndex = floor((targetContentOffset->y + (yDiff*kDragVelocityDampener)) / kUVCellDragInterval);
