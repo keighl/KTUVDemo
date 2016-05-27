@@ -164,7 +164,7 @@
 
   NSInteger nextIndex;
   CGFloat currentY = scrollView.contentOffset.y;
-  CGFloat yDiff = abs(targetContentOffset->y - currentY);
+  CGFloat yDiff = fabs(targetContentOffset->y - currentY);
 
   if (velocity.y == 0.f)
   {
